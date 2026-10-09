@@ -3,9 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>IndicaFilmes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Vou separar as sessões por comentários para facilitar para mim e para você, professor.-->
     
+    <!-- =============== CABEÇALHO =============== -->
+     <header>
+        <h1>IndicaFilmes</h1>
+        <h2>Obras cinematográficas imperdíveis!</h2>
+     
+        <!-- ========= Menu principal para navegação ========= -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#destaque">Destaque</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#lancamentos">Lançamentos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <!-- ========= DESTAQUES DA SEMANA ========= -->
+     <section id="destaque">
+        <h2>Destaque da semana</h2>
+        <div class="card-destaque">
+            <img src="img/destaque.jpg" alt="Pôster do filme em destaque">
+            <h3>Nome do Filme</h3>
+            <p>Sinopse do filme...</p>
+            <ul class="generos">
+                <li>Ação</li>
+                <li>Aventura</li>
+                <li>Ficção científica</li>
+            </ul>
+        </div>
+     </section>
+
+     <!-- ========= GRADE DE FILMES ========= -->
+      <section id="catalogo">
+        <h2>Catálogo</h2>
+        <div class="grade">
+            <div class="card">
+                <img src="img/poster1.jpg" alt="Pôster do Filme 1">
+                <h3><a href="#">Filme 1</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+            <div class="card">
+                <img src="img/poster2.jpg" alt="Pôster do Filme 2">
+                <h3><a href="#">Filme 2</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+            <div class="card">
+                <img src="img/poster3.jpg" alt="Pôster do Filme 3">
+                <h3><a href="#">Filme 3</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+            <div class="card">
+                <img src="img/poster4.jpg" alt="Pôster do Filme 4">
+                <h3><a href="#">Filme 4</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+            <div class="card">
+                <img src="img/poster5.jpg" alt="Pôster do Filme 5">
+                <h3><a href="#">Filme 5</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+            <div class="card">
+                <img src="img/poster6.jpg" alt="Pôster do Filme 6">
+                <h3><a href="#">Filme 6</a></h3>
+                <p>2023 · Drama </p>
+            </div>
+        </div>
+      </section>
+      <!-- ========= TABELA ========= -->
+       <section id="lancamentos">
+            <h2>Lançamentos e Prêmios</h2>
+            <table>
+                <tr>
+                    <th>Filme</th>
+                    <th>Ano</th>
+                    <th>Nota</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+                <tr>
+                    <td>Filme 1</td>
+                    <td>2024</td>
+                    <td>8,5</td>
+                    <td>Em cartaz</td>
+                </tr>
+            </table>
+       </section>
+
+       <!-- ========= SOBRE / CONTATO ========= -->
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                <img src="img/perfil.jpg" alt="Foto do autor" class="foto-sobre">
+                (bio sobre mim e o catalogo)
+            </p>
+            <div class="redes">
+                <a href="https://github.com/helder41">GitHub</a> <br>
+                <a href="https://www.instagram.com/paulohelderdss/">Instagram</a> <br>
+                <a href="www.linkedin.com/in/paulohelderdss">Linkedin</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>Paulo Helder · Desenvolvimento Web I · UNEB</p>
+        </footer>
 </body>
 </html>
