@@ -21,7 +21,7 @@ section h2 {
 
 /* ========= CABEÇALHO =========*/
 header {
-    background-color: #000000;
+    background-color: #b91717;
     background-image: url(img/banner.jpg);
     background-size: cover;
     background-position: center;
@@ -33,7 +33,7 @@ header {
 header h1 {
     color: rgb(229, 9, 20);
     font-size: 6em;
-    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px rgba(94, 109, 95, 0.904);
     margin-bottom: 0;
 }
 
@@ -204,4 +204,22 @@ footer {
     padding: 1rem;
     background-color: #000000;
     color: #888888;
+}
+
+/* ========= DISPLAY E VISIBILITY ========= */
+.selo {
+    display: block;
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.escondido {
+    visibility: hidden;
+}
+/*aplicando o none para não ocupar espaço*/
+.oculto {
+    display: none;
 }
