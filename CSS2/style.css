@@ -32,7 +32,7 @@ header {
 
 header h1 {
     color: rgb(229, 9, 20);
-    font-size: 3em;
+    font-size: 6em;
     text-shadow: 3px 3px 6px rgb(0, 0, 0);
     margin-bottom: 0;
 }
@@ -55,7 +55,7 @@ header h2 {
 }
 
 .menu a {
-    color: white;
+    color: yellow;
     text-decoration: none;
     font-weight: bold;
 }
@@ -63,4 +63,40 @@ header h2 {
 .menu a:hover {
     color: rgb(229, 9, 20);
     text-decoration: underline;
+}
+
+/* ========= DESTAQUE DA SEMANA ========= */
+.card-destaque {
+    background-color: #1f1f1f;
+    border: 2px solid #e50914;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    text-align: center;
+}
+/*Precisei estudar um pouco mais, pois quando eu alinhava o texto para ajeitar a imagem, o gênero vinha para o meio e as bolinhas continuavam na esquerda.*/
+.card-destaque img {
+    width: 450px;
+    float: none;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.card-destaque .generos {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.card-destaque h3 {
+    font-size: 1.6em;
+    margin-top: 0;
+}
+
+/* === lista de gêneros === */
+.generos {
+    list-style-type: lower-greek;
+}
+
+.generos li {
+    color: #ffcc00;
 }
