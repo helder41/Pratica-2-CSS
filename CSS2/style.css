@@ -164,3 +164,44 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #333333;
 }
+
+/* ========= SOBRE / CONTATO ========= */
+.foto-sobre {
+    float: right;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 0 10px 15px;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+.redes {
+    clear: both;
+    margin-top: 20px;
+}
+
+.redes a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: 2px solid #e50914;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.redes a:hover,
+.redes a:focus {
+    background-color: #e50914;
+    color: black;
+}
+
+/* === Rodapé === */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: #888888;
+}
