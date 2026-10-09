@@ -138,3 +138,29 @@ header h2 {
     color: #aaaaaa;
     font-size: 0.9em;
 }
+
+/* ========= TABELA ========= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 15px;
+    border: 1px solid #444444;
+    text-align: left;
+}
+
+th {
+    background-color: #e50914;
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #222222;
+}
+
+tr:hover {
+    background-color: #333333;
+}
