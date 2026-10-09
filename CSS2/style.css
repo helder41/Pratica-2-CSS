@@ -55,7 +55,7 @@ header h2 {
 }
 
 .menu a {
-    color: yellow;
+    color: #ffcc00;
     text-decoration: none;
     font-weight: bold;
 }
@@ -99,4 +99,42 @@ header h2 {
 
 .generos li {
     color: #ffcc00;
+}
+
+/* ========= GRADE DE FILMES ========= */
+/* Encontrei essa parte lendo o material, não havia descoberto no vídeo!*/
+.grade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.card h3 a {
+    color: white;
+    text-decoration: none;
+}
+
+.card h3 a:hover {
+    color: #e50914;
+}
+.card p {
+    color: #aaaaaa;
+    font-size: 0.9em;
 }
